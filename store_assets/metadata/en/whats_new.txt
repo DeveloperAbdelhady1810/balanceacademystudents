@@ -1,0 +1,1 @@
+First release: sign in with email, phone, student ID, Google or Apple; live QR code, Bluetooth check-in, attendance history, notifications and a parent view - in English and Arabic.
