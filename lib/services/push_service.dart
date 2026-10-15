@@ -156,7 +156,7 @@ class PushService extends ChangeNotifier {
           importance: Importance.high,
           priority: Priority.high,
           icon: 'ic_stat_notify',
-          color: Color(0xFF059669),
+          color: Color(0xFFE1BD09),
         ),
       ),
     );

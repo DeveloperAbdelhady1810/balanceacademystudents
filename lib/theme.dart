@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-/// Website palette: emerald primary (#059669 -> #047857) with a sky accent (#0EA5E9),
-/// gray-50 page background.
+/// Balance Academy website palette (admin > settings > theme): gold primary #e1bd09 (dark #047857),
+/// orange-red secondary #c6430c, page background #d7d7ac, white surfaces, text #111827.
 class Brand {
-  static const Color primary = Color(0xFF059669);
+  static const Color primary = Color(0xFFE1BD09);
   static const Color primaryDark = Color(0xFF047857);
-  static const Color accent = Color(0xFF0EA5E9);
-  static const Color background = Color(0xFFF9FAFB);
+  static const Color accent = Color(0xFFC6430C);
+  static const Color background = Color(0xFFD7D7AC);
   static const Color text = Color(0xFF111827);
   static const Color muted = Color(0xFF6B7280);
   static const Color border = Color(0xFFE5E7EB);
