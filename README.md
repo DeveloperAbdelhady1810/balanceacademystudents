@@ -107,4 +107,4 @@ Create a keystore, add `android/key.properties`, and point `signingConfigs.relea
 - `assets/icon.png`, `assets/icon_fg.png`, `assets/logo.png` are **temporary** placeholder art: drop in the real files and run
   `dart run flutter_launcher_icons`.
 - `lib/firebase_options.dart` currently holds dummy values (push is simply unavailable): replace it with the real Firebase values.
-- iOS: set the Apple team id (`DEVELOPMENT_TEAM`) in Xcode; `Secrets.xcconfig` from the example.
+- iOS: team id is set (6X8AX94P84); create `ios/Flutter/Secrets.xcconfig` from the example on the Mac.
