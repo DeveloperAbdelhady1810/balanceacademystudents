@@ -9,10 +9,10 @@ Server: balance-academy.com (the new features are switched OFF until you enable 
 | Privacy policy URL | Done: `https://balance-academy.com/privacy` (also `/privacy-policy`) |
 | Account deletion (in-app + web) | Done as a **disable** (nothing erased): Settings > Delete account, `https://balance-academy.com/delete-account`. Apple's 5.1.1(v) may reject "disable only"; if so the fix is a server change (erase personal details). |
 | Support URL | Done: `https://balance-academy.com/support` (support@balance-academy.com) |
-| Demo reviewer account | **You provide** a student login (and optionally a parent login); put it in Apple "Review sign-in" and Google "App access". |
+| Demo reviewer account | Provided by the owner: student `ahmedmoabdelhady152@gmail.com` (password given in chat, not stored here). Put it in Apple "Review sign-in" and Google "App access". |
 | Android release key | Done: `C:\Users\AhmedAbdElHady\balance-academy-upload.jks` (alias `upload`), `android/key.properties` is git-ignored. **Back both up.** |
 | Target age | 13+ (sign-up in the app refuses under 13). Answer the Google/Apple questionnaires accordingly. |
-| Real icon / logo | **Placeholders now** (`assets/icon.png`, `icon_fg.png`, `logo.png`): replace, then `dart run flutter_launcher_icons`. |
+| Icon / logo | Built from the supplied 86x86 logo (upscaled, soft): supply a 1024x1024 version for sharper store art, then `dart run flutter_launcher_icons`. |
 | Firebase | **You create the project**; replace `lib/firebase_options.dart` (git-ignored), add SHA-1 `D4:87:1C:9E:9F:BE:7D:0A:D6:AD:5A:B5:DD:3D:DB:54:DD:7A:8F:EA` (upload key) and the Play App Signing SHA-1 after the first upload; enable Google sign-in; upload the APNs key. |
 | Google Play testers | New personal accounts need 12 testers x 14 days before production. |
 
