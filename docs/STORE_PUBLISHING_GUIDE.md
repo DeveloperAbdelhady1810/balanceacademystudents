@@ -35,4 +35,4 @@ Rotating codes / Bluetooth stay off until `ble_attendance_enabled` = 1 in `platf
 ## 5. Store forms
 - Data safety / App Privacy: collects name, email, phone, parent phone, student profile, attendance, push token; no ads, no tracking, no location. Deletion URL above.
 - Content rating: none/none -> 4+ (Apple) / Everyone (Google); audience 13+.
-- Screenshots: not generated yet (need the real icon/logo and a test account).
+- Screenshots and graphics are in `store_assets/screenshots/` (made 2026-10-15 from the real app on an emulator with sample data): Google Play phone 1080x1920 (EN+AR, 6 each), App Store iPhone 6.3"/6.9" and iPad 13" (EN+AR), Play feature graphics 1024x500, and the 512/1024 icons. Upload the Play files to the phone-screenshots slot; the iPhone sets go to App Store Connect. Parent-view screenshots are not included yet.
